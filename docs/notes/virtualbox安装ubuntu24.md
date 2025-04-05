@@ -1,3 +1,9 @@
+---
+description: virtualbox搭建ubuntu24.04server虚拟机
+author: jack
+recommend: ['virtualbox', 'ubuntu', 'notes']
+---
+
 # VirtualBox 搭建工作站点
 
 ## 新建虚拟电脑Ubuntu24.04 server
@@ -6,19 +12,19 @@
 
 iso文件下载地址：https://mirrors.huaweicloud.com/ubuntu-releases/24.04/
 
-![](/asset/image-20250330142425548.png)
+![](/asset/vbox_new1.png)
 
 ### 配置用户名和密码
 
-![](/asset/image-20250330142534824.png)
+![](/asset/vbox_new2.png)
 
 ### 分配8cpu 8g内存
 
-![](/asset/image-20250330143819568.png)
+![](/asset/vbox_new4.png)
 
 ### 分配150g虚拟磁盘
 
-![](/asset/image-20250330144133428.png)
+![](/asset/vbox_new5.png)
 
 ### 安装ssh
 
@@ -30,7 +36,7 @@ sudo shutdown now
 
 配置网络连接方式为**桥接网络**
 
-![](/asset/image-20250330150800706.png)
+![](/asset/vbox_network.png)
 
 启动虚拟机，安装openssh-server
 
@@ -50,7 +56,7 @@ sudo systemctl start ssh
 3. software：软件安装目录
 4. workspace：软件工作区目录
 
-![](/asset/image-20250330153334364.png)
+![](/asset/ubuntu_userdir.png)
 
 ### 配置代理
 

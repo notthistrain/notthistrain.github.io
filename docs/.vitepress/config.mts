@@ -23,8 +23,20 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '关于作者', link: '#' },
+      {
+        text: '数据分析',
+        link: '/stata/index',
+      },
+      {
+        text: '笔记',
+        link: '/notes/index',
+      },
     ],
     socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/ella-xiaoguo',
+      },
       {
         icon: 'github',
         link: 'https://github.com/notthistrain',
